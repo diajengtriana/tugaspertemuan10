@@ -56,9 +56,12 @@ pada tugas praktium saya diberi soal sebagai berikut:
 
 # Jawab
 pertama saya membuat looping agar program terus berjalan
+
 while True:
     c = input("\n(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar: ")
+
 lalu saya membuat format if untuk memasukan pilihan , sebagai contoh apabila memilih (t) akan menambah data
+
 if (c.lower() == 't'):
         print('\nTambah Data Mahasiswa Baru')
         nama= input("Masukkan Nama\t\t: ")
@@ -69,7 +72,9 @@ if (c.lower() == 't'):
         nilaiAkhir= (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)
         dataMhs[nama]= nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir
         print("\nData Berhasil Ditambahkan!")
+
 saya juga melakukan percabangan if (elif) untuk melaksanakan pilihan yang lain
+
 elif (c.lower() == 'u'):
         print('\nMengedit Data Mahasiswa')
         nama = input("Masukkan Nama: ")
@@ -81,8 +86,16 @@ elif (c.lower() == 'u'):
             nilaiAkhir= (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)
             dataMhs[nama] = nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir
             print("\nData Berhasil Di Update!")
+
 dan saya juga menggunakan else untuk apabila salah memasukan pilihan inputan
+ 
  else:
         print("Pilih menu yang tersedia: ")
+
 # Output
 ini adalah output apabila memilih tambah(t)
+
+<img width="718" alt="outputTambah" src="https://user-images.githubusercontent.com/92905452/145266978-10328455-f060-437e-8a43-2aabcc5ed998.png">
+
+ini adalah output apabila memilih ubah (u)
+

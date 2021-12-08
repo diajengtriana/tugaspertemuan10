@@ -135,3 +135,6 @@ ini adalah output apabila memilih lihat (l)
 
 ini adalah output apabila memilih keluar (k)
 
+<img width="379" alt="outputKeluar" src="https://user-images.githubusercontent.com/92905452/145268492-628b81f3-a8dc-4910-83b9-77d3a6dc912b.png">
+
+======TERIMAKASIH======

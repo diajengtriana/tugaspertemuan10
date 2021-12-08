@@ -131,3 +131,7 @@ ini adalah output apabila memilih hapus (h)
 
 ini adalah output apabila memilih lihat (l)
 
+<img width="413" alt="outputLihat" src="https://user-images.githubusercontent.com/92905452/145268329-65a684d8-d901-4490-9659-a463b2453f24.png">
+
+ini adalah output apabila memilih keluar (k)
+

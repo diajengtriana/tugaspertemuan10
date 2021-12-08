@@ -58,11 +58,13 @@ pada tugas praktium saya diberi soal sebagai berikut:
 pertama saya membuat looping agar program terus berjalan
 
 while True:
+    
     c = input("\n(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar: ")
 
 lalu saya membuat format if untuk memasukan pilihan , sebagai contoh apabila memilih (t) akan menambah data
 
 if (c.lower() == 't'):
+        
         print('\nTambah Data Mahasiswa Baru')
         
         nama= input("Masukkan Nama\t\t: ")
@@ -83,6 +85,7 @@ if (c.lower() == 't'):
 saya juga melakukan percabangan if (elif) untuk melaksanakan pilihan yang lain
 
 elif (c.lower() == 'u'):
+        
         print('\nMengedit Data Mahasiswa')
         
         nama = input("Masukkan Nama: ")
@@ -105,6 +108,7 @@ elif (c.lower() == 'u'):
 dan saya juga menggunakan else untuk apabila salah memasukan pilihan inputan
  
  else:
+        
         print("Pilih menu yang tersedia: ")
 
 # Output
@@ -120,3 +124,10 @@ ini adalah output apabila memilih ubah (u)
 ini adalah output apabila memilih cari (c)
 
 <img width="425" alt="outputCari" src="https://user-images.githubusercontent.com/92905452/145267708-29e9eee6-d9cd-4453-8797-ebdb6e72492b.png">
+
+ini adalah output apabila memilih hapus (h)
+
+<img width="420" alt="outputHapus1" src="https://user-images.githubusercontent.com/92905452/145268019-e6a81816-11c8-4068-bdc9-9f6b9786478f.png">
+
+ini adalah output apabila memilih lihat (l)
+

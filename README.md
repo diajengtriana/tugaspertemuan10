@@ -43,3 +43,7 @@ pada latiahan 1 saya diberi soal sebagai berikut :
 # Output
 
 <img width="627" alt="outputlatihan1" src="https://user-images.githubusercontent.com/92905452/145265149-79ebe1ec-b4ab-4c4f-a75d-a472556b7b45.png">
+
+# Tugas Praktikum
+pada tugas praktium saya diberi soal sebagai berikut:
+

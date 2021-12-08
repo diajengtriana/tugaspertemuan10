@@ -47,3 +47,4 @@ pada latiahan 1 saya diberi soal sebagai berikut :
 # Tugas Praktikum
 pada tugas praktium saya diberi soal sebagai berikut:
 
+<img width="345" alt="flowchart" src="https://user-images.githubusercontent.com/92905452/145265546-bf2d8c47-0ad2-4261-a55f-4ca227e14f35.png">

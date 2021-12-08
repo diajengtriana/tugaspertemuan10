@@ -47,4 +47,42 @@ pada latiahan 1 saya diberi soal sebagai berikut :
 # Tugas Praktikum
 pada tugas praktium saya diberi soal sebagai berikut:
 
+<img width="540" alt="tugas praktikum" src="https://user-images.githubusercontent.com/92905452/145265973-abfa3efd-b343-4bbf-bef2-a334dea7681b.png">
+
+
+# Flowchart
+
 <img width="345" alt="flowchart" src="https://user-images.githubusercontent.com/92905452/145265546-bf2d8c47-0ad2-4261-a55f-4ca227e14f35.png">
+
+# Jawab
+pertama saya membuat looping agar program terus berjalan
+while True:
+    c = input("\n(L)ihat, (T)ambah, (U)bah, (H)apus, (C)ari, (K)eluar: ")
+lalu saya membuat format if untuk memasukan pilihan , sebagai contoh apabila memilih (t) akan menambah data
+if (c.lower() == 't'):
+        print('\nTambah Data Mahasiswa Baru')
+        nama= input("Masukkan Nama\t\t: ")
+        nim= input("Masukkan NIM\t\t: ")
+        nilaiTugas= int(input("Masukkan Nilai Tugas\t: "))
+        nilaiUts= int(input("Masukkan Nilai UTS\t: "))
+        nilaiUas= int(input("Masukkan Nilai UAS\t: "))
+        nilaiAkhir= (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)
+        dataMhs[nama]= nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir
+        print("\nData Berhasil Ditambahkan!")
+saya juga melakukan percabangan if (elif) untuk melaksanakan pilihan yang lain
+elif (c.lower() == 'u'):
+        print('\nMengedit Data Mahasiswa')
+        nama = input("Masukkan Nama: ")
+        if nama in dataMhs.keys():
+            nim= input("Masukkan NIM Baru\t: ")
+            nilaiTugas= int(input("Masukkan Nilai Tugas\t: "))
+            nilaiUts= int(input("Masukkan Nilai UTS\t: "))
+            nilaiUas= int(input("Masukkan NIlai UAS\t: "))
+            nilaiAkhir= (0.30 * nilaiTugas) + (0.35 * nilaiUts) + (0.35 * nilaiUas)
+            dataMhs[nama] = nim, nilaiTugas, nilaiUts, nilaiUas, nilaiAkhir
+            print("\nData Berhasil Di Update!")
+dan saya juga menggunakan else untuk apabila salah memasukan pilihan inputan
+ else:
+        print("Pilih menu yang tersedia: ")
+# Output
+ini adalah output apabila memilih tambah(t)

@@ -10,33 +10,36 @@ pada latiahan 1 saya diberi soal sebagai berikut :
 # Jawab
 1. Saya membuat data kontak awal
 
-b={'ari':'085267888','dina':'087677776'}
+    b={'ari':'085267888','dina':'087677776'}
 
 2. saya diberi soal untuk menampilkan kontak ari
 
-print(b['ari'])
+    print(b['ari'])
 
 3. saya disuruh menambah kontak atas nama riko
 
-b['riko']='087654544'
+    b['riko']='087654544'
 
 4. mengubah kontak dina
 
-b['dina']='088999776'
+    b['dina']='088999776'
 
 5. tampilkan semua nama
 
-print(b.keys())
+    print(b.keys())
 
 6. tampilkan semua nomor
 
-print(b.values())
+    print(b.values())
 
 7. menampilkan semua nama dan nomor
 
-print(b)
+    print(b)
 
 8. menghapus kontak dina
 
-del b['dina']
+    del b['dina']
 
+# Output
+
+<img width="627" alt="outputlatihan1" src="https://user-images.githubusercontent.com/92905452/145265149-79ebe1ec-b4ab-4c4f-a75d-a472556b7b45.png">
